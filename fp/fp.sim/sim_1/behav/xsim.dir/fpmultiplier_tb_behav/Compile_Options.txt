@@ -1,0 +1,1 @@
+-wto "b720a45f70fd4a45814052a1fdcb7d19" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "fpmultiplier_tb_behav" "xil_defaultlib.fpmultiplier_tb" -log "elaborate.log" 
