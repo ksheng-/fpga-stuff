@@ -1,4 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Kevin/Documents/VHDL/fp/fp.srcs/sources_1/new/fpmultiplier.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity fpmultiplier
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Users/Kevin/Documents/VHDL/fp/fp.srcs/sim_1/new/testbench.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity fpmultiplier_tb
