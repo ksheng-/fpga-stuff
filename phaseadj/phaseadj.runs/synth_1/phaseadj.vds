@@ -1,0 +1,307 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Fri Mar 03 03:08:11 2017
+# Process ID: 9992
+# Current directory: D:/Users/Kevin/Documents/VHDL/phaseadj/phaseadj.runs/synth_1
+# Command line: vivado.exe -log phaseadj.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source phaseadj.tcl
+# Log file: D:/Users/Kevin/Documents/VHDL/phaseadj/phaseadj.runs/synth_1/phaseadj.vds
+# Journal file: D:/Users/Kevin/Documents/VHDL/phaseadj/phaseadj.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source phaseadj.tcl -notrace
+Command: synth_design -top phaseadj -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 4356 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 303.852 ; gain = 94.059
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'phaseadj' [D:/Users/Kevin/Documents/VHDL/phaseadj/phaseadj.srcs/sources_1/new/phaseadj.vhd:22]
+WARNING: [Synth 8-614] signal 'delayline' is read in the process but is not in the sensitivity list [D:/Users/Kevin/Documents/VHDL/phaseadj/phaseadj.srcs/sources_1/new/phaseadj.vhd:199]
+WARNING: [Synth 8-614] signal 'offset_delayline' is read in the process but is not in the sensitivity list [D:/Users/Kevin/Documents/VHDL/phaseadj/phaseadj.srcs/sources_1/new/phaseadj.vhd:220]
+WARNING: [Synth 8-614] signal 'phase_corr' is read in the process but is not in the sensitivity list [D:/Users/Kevin/Documents/VHDL/phaseadj/phaseadj.srcs/sources_1/new/phaseadj.vhd:236]
+WARNING: [Synth 8-614] signal 'phase' is read in the process but is not in the sensitivity list [D:/Users/Kevin/Documents/VHDL/phaseadj/phaseadj.srcs/sources_1/new/phaseadj.vhd:254]
+INFO: [Synth 8-256] done synthesizing module 'phaseadj' (1#1) [D:/Users/Kevin/Documents/VHDL/phaseadj/phaseadj.srcs/sources_1/new/phaseadj.vhd:22]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 341.211 ; gain = 131.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 341.211 ; gain = 131.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 341.211 ; gain = 131.418
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+WARNING: [Synth 8-327] inferring latch for variable 'phase_corr_reg[im]' [D:/Users/Kevin/Documents/VHDL/phaseadj/phaseadj.srcs/sources_1/new/phaseadj.vhd:247]
+WARNING: [Synth 8-327] inferring latch for variable 'phase_corr_reg[re]' [D:/Users/Kevin/Documents/VHDL/phaseadj/phaseadj.srcs/sources_1/new/phaseadj.vhd:247]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 348.035 ; gain = 138.242
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input     16 Bit       Adders := 4     
++---Registers : 
+	               16 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module phaseadj 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input     16 Bit       Adders := 4     
++---Registers : 
+	               16 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[im][0]' (LD) to 'phase_corr_reg[im][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[im][1]' (LD) to 'phase_corr_reg[im][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[im][2]' (LD) to 'phase_corr_reg[im][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[im][3]' (LD) to 'phase_corr_reg[im][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[im][4]' (LD) to 'phase_corr_reg[im][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[im][5]' (LD) to 'phase_corr_reg[im][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[im][6]' (LD) to 'phase_corr_reg[im][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[im][7]' (LD) to 'phase_corr_reg[im][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[im][8]' (LD) to 'phase_corr_reg[im][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[im][9]' (LD) to 'phase_corr_reg[im][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[im][10]' (LD) to 'phase_corr_reg[im][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[im][11]' (LD) to 'phase_corr_reg[im][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[im][12]' (LD) to 'phase_corr_reg[im][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[im][13]' (LD) to 'phase_corr_reg[im][14]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\phase_corr_reg[im][15] )
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[re][0]' (LD) to 'phase_corr_reg[re][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[re][1]' (LD) to 'phase_corr_reg[re][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[re][2]' (LD) to 'phase_corr_reg[re][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[re][3]' (LD) to 'phase_corr_reg[re][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[re][4]' (LD) to 'phase_corr_reg[re][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[re][5]' (LD) to 'phase_corr_reg[re][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[re][6]' (LD) to 'phase_corr_reg[re][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[re][7]' (LD) to 'phase_corr_reg[re][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[re][8]' (LD) to 'phase_corr_reg[re][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[re][9]' (LD) to 'phase_corr_reg[re][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[re][10]' (LD) to 'phase_corr_reg[re][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[re][11]' (LD) to 'phase_corr_reg[re][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[re][12]' (LD) to 'phase_corr_reg[re][14]'
+INFO: [Synth 8-3886] merging instance 'phase_corr_reg[re][13]' (LD) to 'phase_corr_reg[re][14]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\phase_corr_reg[re][15] )
+WARNING: [Synth 8-3332] Sequential element (phase_corr_reg[im][15]) is unused and will be removed from module phaseadj.
+WARNING: [Synth 8-3332] Sequential element (phase_corr_reg[re][15]) is unused and will be removed from module phaseadj.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 491.230 ; gain = 281.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|phaseadj    | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|phaseadj    | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|phaseadj    | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|phaseadj    | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 491.230 ; gain = 281.438
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 501.934 ; gain = 292.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 501.934 ; gain = 292.141
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 501.934 ; gain = 292.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 501.934 ; gain = 292.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 501.934 ; gain = 292.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 501.934 ; gain = 292.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 501.934 ; gain = 292.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |    51|
+|3     |DSP48E1 |     4|
+|4     |LUT1    |    87|
+|5     |LUT2    |    70|
+|6     |LUT3    |    32|
+|7     |LUT4    |    62|
+|8     |FDRE    |     2|
+|9     |FDSE    |    30|
+|10    |LD      |     2|
+|11    |IBUF    |    33|
+|12    |OBUF    |    32|
++------+--------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   406|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 501.934 ; gain = 292.141
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 501.934 ; gain = 274.113
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 501.934 ; gain = 292.141
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 90 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  LD => LDCE: 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 569.430 ; gain = 350.383
+INFO: [Common 17-1381] The checkpoint 'D:/Users/Kevin/Documents/VHDL/phaseadj/phaseadj.runs/synth_1/phaseadj.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 569.430 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 03 03:08:26 2017...

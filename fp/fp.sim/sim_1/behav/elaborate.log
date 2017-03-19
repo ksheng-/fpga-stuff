@@ -13,6 +13,6 @@ Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
 Compiling package ieee.std_logic_arith
 Compiling package ieee.std_logic_unsigned
-Compiling architecture behavioral of entity xil_defaultlib.fpmultiplier [fpmultiplier_default]
+Compiling architecture rtl of entity xil_defaultlib.fpmultiplier [fpmultiplier_default]
 Compiling architecture testbench of entity xil_defaultlib.fpmultiplier_tb
 Built simulation snapshot fpmultiplier_tb_behav

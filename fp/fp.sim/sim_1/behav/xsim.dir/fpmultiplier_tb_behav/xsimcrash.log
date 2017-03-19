@@ -1,40 +1,35 @@
-Unable to capture context for thread 2976 in process 7796, can not generate back trace
-Unable to capture context for thread 9040 in process 7796, can not generate back trace
-Unable to capture context for thread 4200 in process 7796, can not generate back trace
-Exception at PC 0x00007FFB44B18A5C
-Unable to capture context for thread 2976 in process 7796, can not generate back trace
-Unable to capture context for thread 4200 in process 7796, can not generate back trace
-Exception at PC 0x00007FFAF073BB93
+Exception at PC 0x00007FFED0188A5C
+Exception at PC 0x00007FFED0188A5C
+Exception at PC 0x00007FFED0188A5C
+Exception at PC 0x00007FFED0188A5C
+Exception at PC 0x00007FFED0188A5C
+Exception at PC 0x00007FFE8202BB93
 Printing stacktrace...
 
-Exception at PC 0x00007FFB44B18A5C
-Exception at PC 0x00007FFB44B18A5C
-Exception at PC 0x00007FFB44B18A5C
-Exception at PC 0x00007FFB44B18A5C
-Exception at PC 0x00007FFB44B18A5C
-Exception at PC 0x00007FFB44B18A5C
-Exception at PC 0x00007FFB44B18A5C
-Exception at PC 0x00007FFB44B18A5C
-Exception at PC 0x00007FFB44B18A5C
-Exception at PC 0x00007FFB44B18A5C
-Exception at PC 0x00007FFB44B18A5C
-Exception at PC 0x00007FFB44B18A5C
-Exception at PC 0x00007FFB44B18A5C
-Exception at PC 0x00007FFB44B18A5C
-Exception at PC 0x00007FFB44B18A5C
-Exception at PC 0x00007FFB44B18A5C
-[0]  [0x00007FFAF073BB93]
-[1]  [0x00007FFAF073BB93]
-[2]  [0x00007FFAF073B4A1]
-[3]  [0x00007FFAF073B3EF]
-[4]  [0x00007FFAF07219FE]
-[5]  [0x00007FFAF0720ED1]
-[6]  [0x00007FFAF0720D76]
-[7]  [0x00007FFAF06C79F6]
-[8]  [0x00007FFAF06B7AFB]
-[9]  [0x00007FFAF07DE90A]
-[10]  [0x00007FFAF07F9F87]
-[11]  [0x00007FFAF07FA05F]
-[12] (BaseThreadInitThunk+0x22) [0x00007FFB45D513D2]
-[13] (RtlUserThreadStart+0x34) [0x00007FFB475C54E4]
+Exception at PC 0x00007FFED0188A5C
+Exception at PC 0x00007FFED0188A5C
+Exception at PC 0x00007FFED0188A5C
+Exception at PC 0x00007FFED0188A5C
+Exception at PC 0x00007FFED0188A5C
+Exception at PC 0x00007FFED0188A5C
+Exception at PC 0x00007FFED0188A5C
+Exception at PC 0x00007FFED0188A5C
+Exception at PC 0x00007FFED0188A5C
+Exception at PC 0x00007FFED0188A5C
+Exception at PC 0x00007FFED0188A5C
+Exception at PC 0x00007FFED0188A5C
+[0]  [0x00007FFE8202BB93]
+[1]  [0x00007FFE8202BB93]
+[2]  [0x00007FFE8202B4A1]
+[3]  [0x00007FFE8202B3EF]
+[4]  [0x00007FFE820119FE]
+[5]  [0x00007FFE82010ED1]
+[6]  [0x00007FFE82010D76]
+[7]  [0x00007FFE81FB79F6]
+[8]  [0x00007FFE81FA7AFB]
+[9]  [0x00007FFE820CE90A]
+[10]  [0x00007FFE820E9F87]
+[11]  [0x00007FFE820EA05F]
+[12] (BaseThreadInitThunk+0x22) [0x00007FFED1C313D2]
+[13] (RtlUserThreadStart+0x34) [0x00007FFED2F154E4]
 Done

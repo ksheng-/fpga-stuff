@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Thu Feb 16 20:14:21 2017
+# Process ID: 8176
+# Current directory: D:/Users/Kevin/Documents/VHDL/fir/fir.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source D:/Users/Kevin/Documents/VHDL/fir/fir.sim/sim_1/behav/xsim.dir/fir_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Users/Kevin/Documents/VHDL/fir/fir.sim/sim_1/behav/webtalk.log
+# Journal file: D:/Users/Kevin/Documents/VHDL/fir/fir.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source D:/Users/Kevin/Documents/VHDL/fir/fir.sim/sim_1/behav/xsim.dir/fir_tb_behav/webtalk/xsim_webtalk.tcl -notrace

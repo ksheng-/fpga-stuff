@@ -1,0 +1,1 @@
+-wto "67d5c53cf9f8438689f21c3b4a1ed8e5" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "phaseadj_tb_behav" "xil_defaultlib.phaseadj_tb" -log "elaborate.log" 
